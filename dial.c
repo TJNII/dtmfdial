@@ -23,7 +23,7 @@ void dial_digit(int c);
 void silent(int msec);
 void dial(int f1, int f2, int msec);
 
-char *output = "/dev/dsp";
+char *output = "-";
 int bits        = 8;
 int speed       = 8000;
 int tone_time   = 100;
@@ -31,7 +31,7 @@ int silent_time = 50;
 int sleep_time  = 500;
 int volume      = 100;
 int format	= AFMT_U8;
-int use_audio   = 1;
+int use_audio   = 0;
 
 #define BSIZE 4096
 

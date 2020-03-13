@@ -29,7 +29,7 @@ The duration values can be set by these arguments:
   --silent-time milliseconds	(default 50)
   --sleep-time  milliseconds	(default 500)
 
-By default the output is sent to "/dev/dsp". Generated samples
+By default the output is sent to stdout. Generated samples
 are 8 bits unsigned values (AFMT_U8). 8000 samples/second.
 
 To send the output to another device one can use the option:
@@ -40,8 +40,8 @@ option, ir a simpe "-" to sent to stdout.
 If the output device is not the sound special file then another
 option should be used to eliminate attempts to set the sound
 driver parameters:
-  --use-audio  onoff	(default 1)
-Use "--use-audio 0" to disable sound ioctls.
+  --use-audio  onoff	(default 0)
+Use "--use-audio 1" to enable sound ioctls.
 
 It is possible to generate the samples in AFMT_S16_LE format,
 To do that use the option:
