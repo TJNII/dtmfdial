@@ -72,4 +72,5 @@ Copyright and License
 =====================
 
 (C) 1998 Itai Nahshon, nahshon@actcom.co.il
-Use and redistribution are subject to the GNU GENERAL PUBLIC LICENSE.
+
+Use and redistribution are subject to the GNU GENERAL PUBLIC LICENSE v2.
