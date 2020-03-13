@@ -1,0 +1,6 @@
+1. Add a proper man page.
+2. Combine dial with a utility that is doing a data-base lookup
+   and supplu it the number to dial (including any prefixes,
+   addition/removal of area code or country code).
+3. Add a "ramp" option to slowly ramp up/down the volume and
+   prevent "clicks" at the begining/end of a tone.

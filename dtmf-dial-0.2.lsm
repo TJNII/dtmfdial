@@ -1,0 +1,13 @@
+Begin3
+Title:          dtmf-dial - generate dtmf (toch-tone) signals.
+Version:        0.2
+Entered-date:   Mar 20 1998
+Description:    Generate dtmf (touch tone) signals and send them to
+		the sound card or store as a raw sound file.
+Keywords:       dtmf touch-tone dial
+Author:         Itai Nahshon (nahshon@actcom.co.il)
+Maintained-by:  Itai Nahshon (nahshon@actcom.co.il)
+Primary-site:   sunsite.unc.edu /pub/Linux/apps/sound
+Platforms:      Linux, OSS
+Copying-policy: GNU
+End
